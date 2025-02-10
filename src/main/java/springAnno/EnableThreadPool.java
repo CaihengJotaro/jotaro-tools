@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScans;
 import tools.threadpool.ThreadPoolAutoConfiguration;
 
 @Retention(RetentionPolicy.RUNTIME)  // 运行时可用
-@Target({ElementType.METHOD, ElementType.TYPE})
+@Target({ElementType.TYPE})
 @ComponentScan(basePackageClasses = ThreadPoolAutoConfiguration.class)
 public @interface EnableThreadPool {
 

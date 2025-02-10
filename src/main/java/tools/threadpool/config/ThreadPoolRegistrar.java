@@ -41,7 +41,6 @@ public class ThreadPoolRegistrar implements BeanDefinitionRegistryPostProcessor 
         throws BeansException {
     }
 
-    private
 
 
 }
